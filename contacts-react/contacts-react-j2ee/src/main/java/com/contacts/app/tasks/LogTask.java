@@ -39,7 +39,7 @@ public class LogTask extends Task<Void> {
 
 	@Override
 	public Void execute(TaskExecutorContext context) throws TaskException {
-		Platform.log("Task scheduled, time:{0}", DateFormatter.Standard.LONG_DATETIME.getFormat().format(new Date()));
+//		Platform.log("Task scheduled, time:{0}", DateFormatter.Standard.LONG_DATETIME.getFormat().format(new Date()));
 		return null;
 	}
 }
