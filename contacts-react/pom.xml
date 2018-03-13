@@ -14,8 +14,8 @@
 		<module>contacts-react-j2ee</module>
 		<module>contacts-react-mobile</module>
 		<module>contacts-react-swt-hybrid</module>
-		<module>contacts-react-android-hybrid</module>
-		<module>contacts-react-moe-hybrid</module>
+<!-- 		<module>contacts-react-android-hybrid</module> -->
+<!-- 		<module>contacts-react-moe-hybrid</module> -->
 	</modules>
 
 	<properties>
