@@ -1,0 +1,14 @@
+<beans>
+    <bean type="darwino/jsondb" name="contacts-react-postgres" class="com.darwino.config.jsonstore.JsonDbJdbc" alias="demo,default">
+    	<property name="db">postgresql</property>    
+    	<property name="user">postgres</property>    
+    	<property name="password">postgres</property>    
+    	<property name="url">jdbc:postgresql://localhost:5432/dwodemo</property>    
+    </bean>
+    <bean type="darwino/jsondb" name="contacts-react-sqlserver" class="com.darwino.config.jsonstore.JsonDbJdbc" alias="demo,default">
+    	<property name="db">sqlserver</property>    
+    	<property name="user">sa</property>    
+    	<property name="password">password</property>    
+    	<property name="url">jdbc:sqlserver://localhost;databaseName=dwodemo</property>    
+    </bean>
+</beans>
