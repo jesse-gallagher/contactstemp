@@ -14,7 +14,9 @@
 		<module>contacts-react-j2ee</module>
 		<module>contacts-react-mobile</module>
 		<module>contacts-react-swt-hybrid</module>
-  </modules>
+		<module>contacts-react-android-hybrid</module>
+		<module>contacts-react-moe-hybrid</module>
+	</modules>
 
 	<properties>
 		<DARWINO_VERSION>2.1.0-SNAPSHOT</DARWINO_VERSION>
