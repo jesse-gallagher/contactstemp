@@ -11,4 +11,21 @@
     	<property name="password">password</property>    
     	<property name="url">jdbc:sqlserver://localhost;databaseName=dwodemo</property>    
     </bean>
+
+	<bean type="darwino/userdir" name="contacts-react" class="com.darwino.config.user.UserDirLdap">
+		<property name='schema'>
+			<bean class=".Schema">
+				<list name='userContexts'>
+					<value>CN=Users,DC=dai,DC=com</value>
+				</list>
+				<list name='groupContexts'>
+					<value>CN=Users,DC=dai,DC=com</value>
+				</list>
+			</bean>
+		</property>
+		<property name='url'>ldap://someserver:389</property>
+		<property name='securityAuthentication'>simple</property>
+		<property name='securityPrincipal'>username</property>
+		<property name='securityCredentials'>password</property>
+	</bean>
 </beans>
