@@ -14,7 +14,7 @@
 
 	<bean type="darwino/userdir" name="contacts-react" class="com.darwino.config.user.UserDirLdap">
 		<property name='schema'>
-			<bean class=".Schema">
+			<bean class=".ActiveDirectorySchema">
 				<list name='userContexts'>
 					<value>CN=Users,DC=dai,DC=com</value>
 				</list>
